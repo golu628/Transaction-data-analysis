@@ -1,75 +1,93 @@
-UPI Transaction Analysis
-UPI Transaction Analysis is a comprehensive Power BI project that provides in-depth insights into Unified Payments Interface (UPI) transaction data. The project leverages robust data cleaning, transformation, and visualization techniques to present actionable insights on transaction patterns, user behavior, and geographic distribution.
 
-👥 Team Members
-
-Vaibhav Pandey: Role  - Responsibilities (e.g., Data Cleaning, Power BI Dashboard Development)
-
-
+💸 UPI Transaction Analysis – Power BI Dashboard
+<p align="center"> <img src="https://img.shields.io/badge/Tool-Power%20BI-yellow?style=for-the-badge&logo=powerbi" /> <img src="https://img.shields.io/badge/Domain-Digital%20Payments-blue?style=for-the-badge&logo=googlepay" /> <img src="https://img.shields.io/badge/Focus-Transaction%20Insights-green?style=for-the-badge&logo=databricks" /> </p>
 📊 Project Overview
 
-The primary goal of this project is to analyze various attributes of UPI transactions, including:
+UPI Transaction Analysis is a comprehensive Power BI project that delivers in-depth insights into the Unified Payments Interface (UPI) ecosystem.
+It leverages data cleaning, transformation, and visualization to uncover transaction patterns, user behavior, and geographic distribution.
 
-Transaction volumes and values over time
+🔎 The project focuses on:
+✔️ Transaction volumes & values over time
+✔️ Distribution by payment type (P2M, P2P, etc.)
+✔️ Geographic distribution of transactions
+✔️ Top transacting entities (banks, merchants)
+✔️ Peak transaction periods
 
-Distribution of transactions by payment type (e.g., Person-to-Merchant, Person-to-Person)
+🎯 Goal: Provide stakeholders with actionable insights into UPI dynamics and trends.
 
-Geographic distribution of transactions
-
-Top transacting entities (e.g., banks, merchants)
-
-Identification of peak transaction periods
-
-The insights derived aim to empower stakeholders with a clearer understanding of UPI ecosystem dynamics and trends.
+👥 Team Members
+| Name               | Role         | Responsibilities                              |
+| ------------------ | ------------ | --------------------------------------------- |
+| **Vaibhav Pandey** | Data Analyst | Data Cleaning, Power BI Dashboard Development |
 
 🧹 Data Cleaning & Preparation
 
-Data Source: Raw UPI transaction data (e.g., CSV, Excel)
+Data Source: Raw UPI transaction data (CSV, Excel)
 
-Key Cleaning Steps:
+Key Steps:
 
-Handling missing values in critical columns (e.g., transaction amount, date, status).
+🗑️ Handling missing values in transaction amount, date, status
 
-Standardizing date and time formats.
+🔄 Standardizing date & time formats
 
-Removing duplicate entries.
+❌ Removing duplicates
 
-Transforming data types for optimal analysis in Power BI.
+📊 Transforming data types for optimized Power BI analysis
 
-Creating derived columns (e.g., transaction month, day of week) for enhanced analysis.
+➕ Creating derived columns (transaction month, day of week) for deeper insights
 
-📈 Data Modeling & Visualization
+🏗️ Data Modeling & Visualization
 
 Power BI Data Model:
 
-Established relationships between relevant tables (e.g., transactions, merchants, users if separate).
+🔗 Relationships between tables (transactions, merchants, users)
 
-Created calculated columns and measures using DAX to derive key performance indicators (KPIs) such as total transaction value, average transaction amount, and growth rates.
+📐 DAX Measures for KPIs: Total Transaction Value, Avg Transaction Amount, Growth Rates
 
-Interactive Dashboards: Developed a user-friendly and interactive Power BI dashboard featuring:
+Interactive Dashboards:
 
-Overview Page: High-level summaries of total transactions, values, and key trends.
+📌 Overview Page: High-level KPIs – total transactions, values, trends
 
-Time Series Analysis: Visualizations showing transaction trends by day, week, and month.
+⏳ Time Series Analysis: Trends by day, week, month
 
-Geographic Distribution: Maps illustrating transaction density across regions/states.
+🗺️ Geographic Distribution: Heatmaps of transaction density across states/regions
 
-Payment Type Breakdown: Charts detailing the distribution of transactions by various UPI payment categories.
+💳 Payment Type Breakdown: P2M, P2P, and other categories
 
-Top Entities: Rankings of top banks, merchants, or users by transaction volume and value.
+🏦 Top Entities: Banks, merchants, and users ranked by volume & value
 
 💡 Key Findings & Visualizations
 
-During the analysis in Power BI, the following key insights and visualizations were developed:
+📊 Remaining Balance by Customer Age: Bar/line charts showing liquidity trends across demographics
 
-Remaining Balance by Customer Age: A visual representation (e.g., bar chart or line chart) showing the aggregated remaining balance of customers, segmented by their age groups. This helps in understanding the financial behavior and liquidity across different demographics.
+⏱️ Transaction Amount Over Time:
 
-Transaction Amount Over Time: Detailed analysis of the sum of transaction amounts, broken down by:
+Weekly patterns & fluctuations
 
-Week: Identifying weekly transaction patterns and fluctuations.
+Daily peaks & troughs
 
-Day: Highlighting daily peaks and troughs in transaction activity.
+Monthly seasonal variations
 
-Month: Observing long-term monthly trends and seasonal variations.
+🧾 Matrix Representation:
 
-Matrix Representation of Key Values: A comprehensive matrix table displaying various aggregated values (e.g., total transactions, average amount, unique users) against different dimensions (e.g., payment type, location, merchant category). This provides a detailed, cross-sectional view of the data.
+Aggregated values (total transactions, avg amount, unique users)
+
+Cross-tabulated by payment type, location, merchant category
+
+🧰 Tools & Technologies
+
+📊 Power BI – Data Modeling, DAX, Interactive Dashboards
+
+🧹 Power Query – Data Cleaning & Transformation
+
+📑 Excel/CSV – Source dataset
+
+💻 Git & GitHub – Version control & documentation
+
+📫 Contact
+
+💡 For queries or collaboration, feel free to connect:
+
+<p align="center"> <a href="https://github.com/golu628"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://www.linkedin.com/in/vaibhav-pandey-405370105/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> </p>
+
+🔥 “Empowering Digital Payment Insights through Data & Analytics.”
